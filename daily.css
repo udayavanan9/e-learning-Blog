@@ -1,0 +1,156 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Abril+Fatface&family=Alegreya+Sans+SC&family=Bebas+Neue&family=Cinzel&family=Concert+One&family=Dancing+Script&family=Explora&family=Great+Vibes&family=Kanit:wght@100&family=Mitr&family=My+Soul&family=Noto+Sans+KR:wght@100&family=Orbitron&family=Pacifico&family=Poppins:wght@500&family=Prompt:ital,wght@1,300&family=Sevillana&family=Spectral+SC&family=Tilt+Prism&display=swap');
+/*
+font-family: 'Aboreto', cursive;
+font-family: 'Abril Fatface', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Cinzel', serif;
+font-family: 'Explora', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Kanit', sans-serif;
+font-family: 'My Soul', cursive;
+font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Prompt', sans-serif;
+font-family: 'Sevillana', cursive;
+font-family: 'Spectral SC', serif;
+font-family: 'Tilt Prism', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Alegreya Sans SC', sans-serif;
+font-family: 'Mitr', sans-serif;
+font-family: 'Concert One', cursive;
+font-family: 'Dancing Script', cursive;
+*/
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+#five{
+    padding:0 3rem;
+    height: 100vh;
+}
+#two{
+    height: 100vh;
+}
+#three{
+    height: 50vh;
+}
+#four{
+    height: 78vh;
+}
+.icons{
+    margin-left: 5rem;
+    display: flex;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+}
+    /*#6D9588 darkgray
+    #ebd7e0 pink
+    #d9a3bb dark pink
+    #7eb5c1 dark greenblue
+    #9cb8b3 light gary
+    #7a9893 dark gray
+    #f8f9fa white
+    #fffcf9 white
+    #fffafb main white
+    #fcfffd mainn white*/
+
+nav{
+    padding: 1.2rem 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+}
+nav a{
+    list-style: none;
+    text-decoration: none;
+    letter-spacing: 2px;
+    list-style: none;
+    color: #6D9588;
+    margin: 0 2rem;
+    border-radius: 4px;
+    padding: 0.9rem 1.5rem;
+    transition:all 1s ease-in-out;
+}
+nav a:hover{
+
+    background: #6D9588;
+    color: white;
+}
+.main-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logos{
+    color:#d9a3bb ;
+    margin-left: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.imp-box{
+    display: flex;
+    justify-content: center;
+    gap:2rem 9rem;
+}
+.inside{
+    display: grid;
+    place-items: center;
+    color:#d9a3bb ;
+}
+.inside button{
+    background: #6D9588;
+    padding: 0.6rem 2.9rem;
+    color: white;
+    border: none;
+}
+.heading{
+    text-align: center;
+    color: #6D9588;
+}
+.heading h2{
+    margin-top: 2rem;
+}
+.heading p{
+    margin-bottom: 1rem;
+    color: gray;
+}
+.heading h1{
+    margin: auto;
+    text-align: center;
+    width: 500px;
+    padding: 0.7rem 2rem;
+    color: white;
+    background: #6D9588;
+    margin-bottom: 1rem;
+}
+.imp2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:2rem 14rem;
+}
+.outside{
+    background: #6D9588;
+    margin-top: 1rem;
+    padding:4rem 3.5rem;
+    display: grid;
+    border-radius: 50%;
+    place-items: center;
+    color: #ffffff;
+}
+.
